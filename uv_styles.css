@@ -1,0 +1,70 @@
+/* @override 
+	http://sc.localhost/wp-content/plugins/uservoice/uv_styles.css
+	http://localhost/wordpress/development/wp-content/plugins/uservoice/uv_styles.css
+*/
+#uv_suggestion_list {
+	 margin:0.6em 0 0.6em 0 !important; 
+}
+
+#uv_suggestion_list li.uv_suggestion { 
+	position:relative; 
+	padding:0 0 0 46px; 
+	margin:0 0 1em 0; 
+	background-image:none; 
+	min-height:40px; 
+	_height:40px; 
+	list-style:none; 
+}
+
+#uv_suggestion_list li .uv_votes { 
+	position:absolute; 
+	left:0; 
+	border:1px solid #ccc; 
+	color:#333333; 
+	padding:2px 4px; 
+	text-align:center; 
+	font-size:9px; 
+	-moz-border-radius:2px; 
+	-webkit-border-radius:2px; 
+	border-radius:2px; 
+}
+
+#uv_suggestion_list li .uv_votes .uv_num_votes { 
+	display:block; 
+	font-size:14px; 
+	line-height:14px; 
+	font-style:normal; 
+	font-weight:bold; 
+	padding:2px 0 0 0; 
+}
+
+/* Comment icon from: http://wefunction.com/2008/07/function-free-icon-set */
+#uv_suggestion_list li .uv_comments { 
+	font-size:0.9em; 
+	color:#14a305; 
+	padding-left:18px; 
+	background:transparent url(comment_12.png) no-repeat 0px 0px; 
+}
+
+#uv_suggestion_list li .uv_comments:focus,
+#uv_suggestion_list li .uv_comments:hover { 
+	color:#333333; 
+	text-decoration:underline; 
+}
+
+#uv_credit { 
+	display:block; 
+	width:219px; 
+	height:35px; 
+	text-indent:-900em; 
+	overflow:hidden; 
+	background:transparent url(powered_by_uv.png) no-repeat; 
+}
+
+#uv_footer_text {
+	overflow:hidden;
+	clear: both;
+	margin: 0 0 1em 0;
+}
+
+#uv_box br { clear:right; }
